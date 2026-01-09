@@ -13,7 +13,7 @@ def ellipse_y(height, angle_deg):
 screen = trtl.Screen()
 screen.bgcolor("#d3dae8")
 screen.setup(900, 800)
-screen.title("Happy Birthday Furina")
+screen.title("Happy Birthday Sayang Azriel")
 
 pen = trtl.Turtle()
 pen.pensize(3)
@@ -255,4 +255,5 @@ pen.pendown()
 pen.write("Happy Birthday", font=("Curlz MT", 50 , 'bold'))
 
 screen.update()
+
 trtl.done()
